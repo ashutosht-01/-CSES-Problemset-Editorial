@@ -26,7 +26,7 @@ using namespace std;
 #define   N               1e5   
 #define   inf             1e18 
 #define   nline           "\n"
-void f_o_x()
+void i_o()
 {
     fastio;
     #ifndef ONLINE_JUDGE
@@ -78,7 +78,7 @@ ll solve(ll n)
 }
 int main()
 {
- f_o_x();
+ i_o();
     ll n;
     cin>>n;
     // memset(dp,-1,sizeof(dp));

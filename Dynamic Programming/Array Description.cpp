@@ -23,7 +23,7 @@ using namespace std;
 #define   N               1e5   
 #define   inf             1e18 
 #define   nline           "\n"
-void f_o_x()
+void i_o()
 {
     fastio;
     #ifndef ONLINE_JUDGE
@@ -33,7 +33,7 @@ void f_o_x()
 } 
 int main()
 {
-	f_o_x();
+	i_o();
 	ll n,m;
 	cin>>n>>m;
 	ll a[n];
