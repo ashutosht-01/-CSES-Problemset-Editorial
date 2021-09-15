@@ -23,7 +23,7 @@ using namespace std;
 #define   N               1e5   
 #define   inf             1e18 
 #define   nline           "\n"
-void i_o()
+void cses()
 {
   fastio;
   #ifndef ONLINE_JUDGE
@@ -35,7 +35,7 @@ void i_o()
  
 int main()
 {
-i_o();
+cses();
 // dp[i][x]= No of ways to calculate the sum x using c0 ----- ci-1
 ll n,m;
 cin>>n>>m;

@@ -26,7 +26,7 @@ using namespace std;
 #define   N               1e5   
 #define   inf             1e18 
 #define   nline           "\n"
-void i_o()
+void cses()
 {
     fastio;
     #ifndef ONLINE_JUDGE
@@ -78,7 +78,7 @@ ll solve(ll n)
 }
 int main()
 {
- i_o();
+ cses();
     ll n;
     cin>>n;
     // memset(dp,-1,sizeof(dp));

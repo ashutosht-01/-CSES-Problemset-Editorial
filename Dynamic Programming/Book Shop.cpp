@@ -26,7 +26,7 @@ using namespace std;
 #define   N               1e5   
 #define   inf             1e18 
 #define   nline           "\n"
-void f_o_x()
+void cses()
 {
     fastio;
     #ifndef ONLINE_JUDGE
@@ -38,7 +38,7 @@ void f_o_x()
 int main()
 {
 
-f_o_x();
+cses();
 ll n,x;
 cin>>n>>x;
 ll price[n+1];
