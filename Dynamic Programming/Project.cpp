@@ -39,10 +39,10 @@ int main()
       if(it==end_points.begin())
       j=0;
       else{
-      j=distance(end_points.begin(),it);
+      j=distance(end_points.begin(),it);   //this distance() between iterators will give index j from which ans has to be extended for curr dp state.
      }
       dp[i]=max(dp[i-1],arr[i-1].reward+dp[j]);
-   }
+   } JNHNJHJJJNJ
    cout<<dp[n]<<endl;
 }
 
