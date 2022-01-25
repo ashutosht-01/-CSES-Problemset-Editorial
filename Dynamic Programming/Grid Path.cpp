@@ -30,8 +30,8 @@ void cses()
 {
 	fastio;
 	#ifndef ONLINE_JUDGE
-	freopen("ip.txt","r",stdin);
-	freopen("op.txt","w",stdout);
+	freopen("input.txt","r",stdin);
+	freopen("nit.txt","w",stdout);
 	#endif
 } 
 
@@ -39,47 +39,12 @@ int main()
 {
 cses();
 
-		ll n;
-		cin>>n;
-		 char grid[n][n];
-		 ll dp[n][n];
-		 memset(dp,0,sizeof(dp));
-		f(i,0,n)
-		{
-			f(j,0,n)
-			cin>>grid[i][j];
-		}
-	    if(grid[0][0]=='*')
-	    cout<<dp[n-1][n-1]%mod<<"\n";
-	    else
-	    {
-           for(int j=0;j<n;j++){
-           	if(grid[0][j]=='*'){
-           		dp[0][j]=0;
-           		break;
-           	}
-           	else
-           		dp[0][j]=1;
-           }
-           for(int i=0;i<n;i++)
-           {
-           	if(grid[i][0]=='*')
-           		break;
-           	else
-           		dp[i][0]=1;
-           }
-          for(int i=1;i<n;i++)
-          {
-          	f(j,1,n)
-          	{
-          		if(grid[i][j]=='*')
-          			dp[i][j]=0;
-          		else
-          			dp[i][j]=(dp[i-1][j]+dp[i][j-1])%mod;
-          	}
-          }
-          cout<<dp[n-1][n-1]%mod<<"\n";
-           }
+	 
+		
+		cout<<__gcd(1071,936);
+
+	  
+ }
 
 		// f(i,0,n)
 		// {
@@ -87,5 +52,5 @@ cses();
 		// 	cout<<dp[i][j]<<" ";
 		// 	cout<<"\n";
 		// }
-}
+
 	
