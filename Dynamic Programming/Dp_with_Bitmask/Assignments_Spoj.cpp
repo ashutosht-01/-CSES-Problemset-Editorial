@@ -17,7 +17,7 @@ ll dp[20][1ll << 20];
 ll solve(ll n, ll i, ll mask, vector<vector<ll>> &mat)
 { //Returns Num of ways to assign topic (i--n) to some students  represented using mask
 
-    if (i == n)
+    if (i == n - 1)
         return 1;
     if (dp[i][mask] != -1)
         return dp[i][mask];
