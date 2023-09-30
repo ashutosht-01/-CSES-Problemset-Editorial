@@ -32,8 +32,9 @@ ll solve(ll n, ll i, ll mask, vector<vector<ll>> &mat)
 }
 int main()
 {
+    cout << "some changes in master wrt rebasing" << endl;
     cses();
-
+ 
     ll t;
     cin >> t;
 
@@ -42,7 +43,8 @@ int main()
         ll n;
         cin >> n;
         vector<vector<ll>> mat(n, vector<ll>(n, 0));
-cout<<"Hi from temp"<<"\n";
+        cout << "Hi from temp"
+             << "\n";
         for (ll i = 0; i < n; i++)
         {
             for (ll j = 0; j < n; j++)
