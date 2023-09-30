@@ -42,8 +42,7 @@ int main()
         ll n;
         cin >> n;
         vector<vector<ll>> mat(n, vector<ll>(n, 0));
-
-        cout << "Hi changes in exmp";
+cout<<"Hi from temp"<<"\n";
         for (ll i = 0; i < n; i++)
         {
             for (ll j = 0; j < n; j++)
@@ -52,6 +51,6 @@ int main()
 
         memset(dp, -1, sizeof(dp));
         cout << solve(n, 0, (1ll << n) - 1, mat) << endl;
-        cout<<"Hi there"<<endl;
+        cout << "Hi there" << endl;
     }
 }
