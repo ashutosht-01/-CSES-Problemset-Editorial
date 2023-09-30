@@ -15,7 +15,7 @@ void cses()
 }
 ll dp[20][1ll << 20];
 ll solve(ll n, ll i, ll mask, vector<vector<ll>> &mat)
-{ //Returns Num of ways to assign topic (i--n) to some students  represented using mask
+{ // Returns Num of ways to assign topic (i--n) to some students  represented using mask
 
     if (i == n - 1)
         return 1;
@@ -42,11 +42,14 @@ int main()
         ll n;
         cin >> n;
         vector<vector<ll>> mat(n, vector<ll>(n, 0));
+
+        cout << "Hi changes in exmp";
         for (ll i = 0; i < n; i++)
         {
             for (ll j = 0; j < n; j++)
                 cin >> mat[i][j];
         }
+
         memset(dp, -1, sizeof(dp));
         cout << solve(n, 0, (1ll << n) - 1, mat) << endl;
     }
