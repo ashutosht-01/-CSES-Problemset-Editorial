@@ -49,5 +49,6 @@ int main()
         }
         memset(dp, -1, sizeof(dp));
         cout << solve(n, 0, (1ll << n) - 1, mat) << endl;
+        cout<<"Hi there"<<endl;
     }
 }
