@@ -34,7 +34,7 @@ int main()
 {
     cout << "some changes in master wrt rebasing" << endl;
     cses();
- 
+
     ll t;
     cin >> t;
     cout << "changes in experiment ";
@@ -54,6 +54,6 @@ int main()
 
         memset(dp, -1, sizeof(dp));
         cout << solve(n, 0, (1ll << n) - 1, mat) << endl;
-        cout << "Hi there" << endl;
+        cout << "Hi there from master" << endl;
     }
 }
