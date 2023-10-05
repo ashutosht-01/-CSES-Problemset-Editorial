@@ -51,7 +51,8 @@ int main()
             for (ll j = 0; j < n; j++)
                 cin >> mat[i][j];
         }
-
+        cout << "Helo rd" << endl;
+        cout << "sone chnages to be cheryypick";
         memset(dp, -1, sizeof(dp));
         cout << solve(n, 0, (1ll << n) - 1, mat) << endl;
         cout << "Hi there from master" << endl;
