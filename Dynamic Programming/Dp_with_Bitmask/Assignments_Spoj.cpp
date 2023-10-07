@@ -4,7 +4,7 @@ using namespace std;
 #define fastio ios_base::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL)
 
 const ll mod = 1e9 + 7;
-const ll inf =1e18;
+const ll inf = 1e18;
 void cses()
 {
     fastio;
@@ -57,5 +57,6 @@ int main()
         cout << solve(n, 0, (1ll << n) - 1, mat) << endl;
         cout << "Hi there from master" << endl;
         cout << "fetature changes" << endl;
+        cout << "temoc " << endl;
     }
 }
